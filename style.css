@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url("https://images.unsplash.com/photo-1500236861371-c749e9a06b46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: white;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid; 
+    padding: 32px 0px;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.415);
+    background-color: #1c125e19;
+}
+
+
+.container label {
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 50;
+}
+
+.container form {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container h2 {
+    font-weight: 400;
+}
+
+.container .rowocon {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.container .rowocon input{
+    height: 40px;
+    background: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 300px;
+    background-color: #1b1b1b8c;
+}
+
+.input-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container form input::placeholder {
+    color: white;
+    outline: none;
+    opacity: 50%;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.container .rowocon button {
+    font-weight: 500;
+    font-size: 14px;
+    height: 40px;
+    padding: 0px 23px;
+    border: none;
+    background-color: #1e9e5c;
+    color: #ffffff;
+    border-radius: 0px;
+}
+
+.container .rowocon button:hover {
+    background-color: #0a743d;
+}
+
+.alert {
+    color: #f0e6e6;
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+
+
+.container-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 25px;
+    background-color: #1a907164;
+    border-radius: 15px;
+}
+
+.container-display h1 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin-bottom: -20px;
+    margin-top: -35px;
+}
+
+.container-display h2 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container-display p {
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card-header h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: -40px;
+    text-transform: uppercase;
+    /* border: 1px solid white; */
+}
+
+.flex-colom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex-colom .time {
+    margin-top: -72px;
+}
+
+.card-header p {
+    font-size: 14px;
+    opacity: 70%;
+}
+
+.container-display h5 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
